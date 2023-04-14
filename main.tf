@@ -68,7 +68,7 @@ resource "aws_security_group" "terraformsgrp" {
     from_port = 8080
     protocol = "tcp"
     to_port = 8080
-    cidr_blocks = ["0.0.0.0/0"]t
+    cidr_blocks = ["0.0.0.0/0"]
   }
 
   egress {
